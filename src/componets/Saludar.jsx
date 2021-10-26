@@ -1,9 +1,15 @@
 import react from "react";
 
 export default function Saludar() {
+    
+    const saludar =() =>{
+        alert("hola soy victor perea") 
+    }
+
+    
     return(
         <div>
-            <h1>Hola soy victor2</h1>
+            <button onClick={saludar}>Clicqueame</button>
         </div>
 
     )
